@@ -1,5 +1,5 @@
 import React from 'react';
-import Burger from '../components/Burger';
+import Burger from '../components/Nav/Burger';
 
 const Navbar = () => (
   <div className="nav-container">
