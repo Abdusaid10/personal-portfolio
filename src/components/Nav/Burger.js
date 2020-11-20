@@ -51,14 +51,14 @@ const Burger = () => {
 
   return (
     // eslint-disable-next-line jsx-a11y/interactive-supports-focus
-    <>
+    <div>
       <StyledBurger open={open} onClick={() => handleClick()}>
         <div />
         <div />
         <div />
       </StyledBurger>
       <NavMenu open={open} />
-    </>
+    </div>
   );
 };
 
