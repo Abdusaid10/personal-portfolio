@@ -1,0 +1,128 @@
+#about,
+#aboutText,
+#languages,
+#frameworksLibraries,
+#skills,
+.skills-container,
+.skills-wrapper {
+  display: flex;
+}
+
+#about {
+  flex-direction: row-reverse;
+  margin: 20px auto;
+  z-index: 0;
+}
+
+#about, #aboutText {
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+
+#aboutText {
+  flex-flow: column wrap;
+  margin: auto;
+}
+
+#aboutText h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#aboutText p {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  /* margin: 10px; */
+  background-color: #212123;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+/* 
+.skills-container {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+} */
+
+.skills-wrapper {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-self: center;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  /* height: 80%; */
+  background-color: #212123;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+#languages,
+#frameworksLibraries,
+#skills {
+  flex-flow: row wrap;
+  flex-grow: 0;
+  justify-content: start;
+  align-items: center;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin: 0 24px;
+  position: static;
+
+}
+
+#languageHeader,
+#frameworksHeader,
+#skillsHeader {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  padding: 5px;
+  /* color: #344563; */
+  color: white;
+}
+
+#languages span,
+#frameworksLibraries span,
+#skills span {
+  display: block;
+  padding: 5px;
+  margin: 4px;
+  border: 2px solid gray;
+  border-radius: 8px 8px;
+  color: #36B37E;
+}
+
+#resumeLink {
+  padding: 10px;
+  background-color: #36B37F;
+  color: white;
+}
+
+
+
+@media (min-width: 768px) {
+  .skills-wrapper {
+    flex: 0 0 45%;
+    max-width: 45% !important;
+  }
+}
+
+@media (max-width: 1248px) {
+  #about, .skills-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .skills-wrapper {
+    width: 100% !important;
+    padding: 50px;
+    margin: 10px;
+  }
+}
