@@ -1,0 +1,13 @@
+#projectWrapper {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  justify-items: center;
+  align-items: center;
+}
+
+.project-img {
+  width: 320px;
+  height: 240px;
+  margin: 10px;
+}
