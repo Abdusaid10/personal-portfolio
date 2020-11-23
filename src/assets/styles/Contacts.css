@@ -1,0 +1,23 @@
+#contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#contacts a {
+  display: block;
+  margin: 10px;
+  padding: 5px;
+}
+
+#ghLogo,
+#linkedIn  {
+  width: 24px;
+  height: 24px;
+  background-color: white;
+}
+
+#ghLogo {
+ border-radius: 180px;
+}
