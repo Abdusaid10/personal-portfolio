@@ -3,6 +3,7 @@ import Navbar from '../containers/Navbar';
 import About from './About';
 import Contact from './Contact';
 import RecentWork from '../containers/RecentWork';
+import GetStarted from '../containers/GetStarted';
 import '../assets/styles/reset.css';
 import '../assets/styles/index.css';
 import '../assets/styles/Navbar.css';
@@ -13,6 +14,7 @@ const App = () => (
     <Navbar />
     <About />
     <RecentWork />
+    <GetStarted />
     <Contact />
   </div>
 );
