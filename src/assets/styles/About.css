@@ -98,8 +98,13 @@
   padding: 10px;
   background-color: #36B37F;
   color: white;
+  font-weight: bold;
+  font-size: 18px;
 }
 
+#resumeLink:hover {
+  background-color: rgba(3, 104, 79, 0.5);
+}
 
 @media (max-width: 1248px) {
   #about, #aboutText {

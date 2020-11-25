@@ -36,14 +36,21 @@
   align-items: baseline;
 }
 
+.project-info h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
 #stackWrapper {
   padding: 5px;
   margin: 5px;
 }
 #stackWrapper span {
   display: inline-block;
-  margin: 2px;
-  padding: 2px;
+  padding: 4px;
+  margin: 5px;
+  border: 2px solid gray;
+  color: red;
 }
 
 #seeProject {
@@ -56,6 +63,5 @@
 }
 
 #seeProject:hover {
-  background-color: rgba(120, 125, 150, .5);
-  box-shadow: inset 3px 3px 5px 6px  rgba(209, 209, 209, 0.5);
+  background: rgba(3, 104, 79, 0.5);
 }
