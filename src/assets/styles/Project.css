@@ -53,7 +53,7 @@
   color: red;
 }
 
-#seeProject {
+.see-project {
   background-color: red;
   color: white;
   padding: 10px;
@@ -62,6 +62,8 @@
   font-size: 18px;
 }
 
-#seeProject:hover {
+.see-project:hover {
+  text-decoration: none;
+  color: white;
   background: rgba(3, 104, 79, 0.5);
 }

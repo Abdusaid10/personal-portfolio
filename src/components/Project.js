@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const Project = ({ project }) => (
@@ -13,12 +14,12 @@ const Project = ({ project }) => (
           ))
         }
       </div>
-      <button id="seeProject" type="button">
+      <Link to="/project/:id" className="see-project" type="button">
         <spna className="p-1 m-1">See project</spna>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M18.7423 10.6265L13.4834 5.36758L14.8976 3.95337L22.5707 11.6265L14.8976 19.2996L13.4834 17.8854L18.7422 12.6265H2L2 10.6265H18.7423Z" fill="white" />
         </svg>
-      </button>
+      </Link>
     </div>
   </div>
 );
