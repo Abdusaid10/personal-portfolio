@@ -4,7 +4,7 @@ const Form = () => {
   const initialState = {
     name: 'Name',
     email: 'email',
-    message: 'Enter your message here...',
+    message: '',
   };
   const [data, setData] = useState(initialState);
   const { name, email, message } = data;
@@ -49,6 +49,7 @@ const Form = () => {
         cols="30"
         value={message}
         placeholder="Enter your message here..."
+        onChange={handleChange}
         required
       >
         {message}
