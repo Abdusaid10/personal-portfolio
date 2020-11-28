@@ -1,8 +1,59 @@
+input, textarea {
+  border: none;
+  border-radius: 4px;
+  background-color: #101010;
+  color: whitesmoke;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 2px 24px rgba(139, 138, 138, 0.25);
+}
+
+.get-started {
+  margin: 20px 0;
+  background-color: #212123; /* #212123 */
+  width: 100%;
+}
+
+
 .get-started,
-.form-container {
+.form-container,
+.get-started-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
+}
+
+.get-started-text {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.get-started-text h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.form-container {
+  margin: auto;
+  width: 50%;
+}
+
+.width-100 {
+  width: 100% !important;
+  padding: 10px 5px;
+}
+
+@media (max-width: 780px) {
+  .get-started-text {
+    margin: 0;
+  }
+  .get-started-text, .form-container {
+    width: 100%;
+    padding: 10px;
+  }
 }

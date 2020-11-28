@@ -54,7 +54,7 @@
 }
 
 .see-project {
-  background-color: red;
+  background-color: rgb(185, 55, 55);
   color: white;
   padding: 10px;
   vertical-align: middle;
@@ -65,5 +65,14 @@
 .see-project:hover {
   text-decoration: none;
   color: white;
-  background: rgba(3, 104, 79, 0.5);
+  background: rgb(216, 13, 13);
+  text-shadow: 0 0 0 rgba(139, 138, 138, 0.25), 0 0 4px rgba(236, 236, 236, 0.25), 0 0 6px rgba(255, 255, 255, 0.555);
+}
+
+@media (max-width: 1248px) {
+  #projectWrapper, #projectsContainer #projectWrapper:nth-child(even) {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  } 
 }

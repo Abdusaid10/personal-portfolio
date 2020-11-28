@@ -10,14 +10,17 @@
 
 #about {
   flex-direction: row-reverse;
-  margin: 20px 25px;
+  background-color: #212123; /* #212123*/
+  margin: 20px 0;
   z-index: 0;
+  width: 100%;
 }
 
 #about, #aboutText {
   align-items: center;
   justify-items: center;
   position: relative;
+  
 }
 
 #aboutText {
@@ -28,6 +31,7 @@
 #aboutText h2 {
   font-weight: bold;
   font-size: 32px;
+  text-shadow: 0 0 0 rgba(139, 138, 138, 0.25), 0 0 6px rgba(236, 236, 236, 0.25), 0 0 8px rgba(255, 255, 255, 0.555);
 }
 
 #aboutText p {
@@ -36,7 +40,7 @@
   padding: 20px;
   /* margin: 10px; */
   background-color: #212123;
-  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 24px rgba(139, 138, 138, 0.25);
   border-radius: 8px;
 }
  
@@ -56,6 +60,10 @@
   border-radius: 4px;
 }
 
+.skills-wrapper:hover {
+  box-shadow: 0 2px 24px rgba(139, 138, 138, 0.25);
+}
+
 #languages,
 #frameworksLibraries,
 #skills {
@@ -70,9 +78,7 @@
 
 }
 
-#languageHeader,
-#frameworksHeader,
-#skillsHeader {
+.skills-headings {
   font-family: Inter;
   font-size: 24px;
   font-weight: 600;

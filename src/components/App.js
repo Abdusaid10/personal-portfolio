@@ -12,8 +12,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => (
   <div className="app">
     <Navbar />
-    <About />
     <RecentWork />
+    <About />
     <GetStarted />
     <Contact />
   </div>

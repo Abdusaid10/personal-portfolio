@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const Form = () => {
   const initialState = {
-    name: 'Name',
-    email: 'email',
+    name: '',
+    email: '',
     message: '',
   };
   const [data, setData] = useState(initialState);
@@ -23,27 +23,29 @@ const Form = () => {
 
   return (
     <form className="form-container" onSubmint={handleSubmit}>
-      <label htmlFor="name">
+      <label htmlFor="name" className="width-100">
         <input
           type="text"
           name="name"
           value={name}
           onChange={handleChange}
-          className="form-group"
+          className="width-100"
+          placeholder="Name"
         />
       </label>
-      <label htmlFor="email">
+      <label htmlFor="email" className="width-100">
         <input
-          className="form-group"
+          className="width-100"
           type="text"
           name="email"
           value={email}
           onChange={handleChange}
+          placeholder="Email"
           required
         />
       </label>
       <textarea
-        className="form-group"
+        className="width-100"
         name="message"
         rows="4"
         cols="30"
@@ -54,7 +56,7 @@ const Form = () => {
       >
         {message}
       </textarea>
-      <button type="submit" className="btn btn-danger">Start Collaboration</button>
+      <button type="submit" className="btn btn-danger mt-3">Start Collaboration</button>
     </form>
   );
 };

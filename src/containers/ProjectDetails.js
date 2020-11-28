@@ -25,7 +25,7 @@ const ProjectDetails = ({ project }) => (
           <div>
             <p>{project.description}</p>
             <div>
-              <button>
+              <button type="button">
                 See Live
               </button>
             </div>
