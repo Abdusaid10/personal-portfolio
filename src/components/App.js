@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../containers/Navbar';
+import Portfolio from './Portfolio';
 import About from './About';
 import Contact from './Contact';
 import RecentWork from '../containers/RecentWork';
@@ -12,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => (
   <div className="app">
     <Navbar />
+    <Portfolio />
     <RecentWork />
     <About />
     <GetStarted />

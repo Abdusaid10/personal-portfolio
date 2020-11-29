@@ -1,0 +1,33 @@
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.center-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.center-items p {
+  margin: auto;
+}
+
+#info {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: baseline;
+  font-weight: bold;
+}
+
+#portfolio h2 {
+  font-size: 50px;
+  padding-bottom: 10px;
+}

@@ -102,14 +102,19 @@
 
 #resumeLink {
   padding: 10px;
-  background-color: #36B37F;
+  background-color: #212123;;
   color: white;
   font-weight: bold;
   font-size: 18px;
+  align-items: center;
 }
 
 #resumeLink:hover {
-  background-color: rgba(3, 104, 79, 0.5);
+  box-shadow: 0 2px 24px rgba(139, 138, 138, 0.25);
+}
+
+#resumeLink span {
+  margin-right: 10px;
 }
 
 @media (max-width: 1248px) {

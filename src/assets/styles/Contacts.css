@@ -21,3 +21,8 @@
 #ghLogo {
  border-radius: 180px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}

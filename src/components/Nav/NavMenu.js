@@ -12,9 +12,14 @@ const NavMenuStyle = styled.ul`
     margin: 0;
   }
 
+  .menu-item a {
+    text-decoration: none;
+    color: white;
+  }
+
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #0D2538;
+    background-color: #1B1B1E;
     position: fixed;
     top: 0;
     right: 0;
@@ -34,10 +39,18 @@ const NavMenuStyle = styled.ul`
 
 const NavMenu = ({ open }) => (
   <NavMenuStyle open={open}>
-    <li className="menu-item">Profile</li>
-    <li className="menu-item">About</li>
-    <li className="menu-item">Recent Work</li>
-    <li className="menu-item">Contact</li>
+    <li className="menu-item">
+      <a href="#portfolio">Portfolio</a>
+    </li>
+    <li className="menu-item">
+      <a href="#projectsContainer">Recent Work</a>
+    </li>
+    <li className="menu-item">
+      <a href="#about">About</a>
+    </li>
+    <li className="menu-item">
+      <a href="#contacts">Contact</a>
+    </li>
   </NavMenuStyle>
 );
 
