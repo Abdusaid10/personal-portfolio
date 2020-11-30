@@ -12,6 +12,7 @@
   flex-direction: row-reverse;
   background-color: #212123; /* #212123*/
   margin: 20px 0;
+  padding: 15px;
   z-index: 0;
   width: 100%;
 }
@@ -38,7 +39,7 @@
   display: block;
   /* text-align: center; */
   padding: 20px;
-  margin: 10px;
+  /* margin: 10px; */
   background-color: #212123;
   box-shadow: 0 2px 24px rgba(139, 138, 138, 0.25);
   border-radius: 8px;

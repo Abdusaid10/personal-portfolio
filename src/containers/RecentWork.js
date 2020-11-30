@@ -2,8 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Project from '../components/Project';
 import weatherApp1 from '../assets/imgs/weatherApp1.png';
-import weatherApp2 from '../assets/imgs/weatherApp2.png';
+import bookstore from '../assets/imgs/bookstore.png';
 import devocean from '../assets/imgs/devocean_feed.png';
+import meals from '../assets/imgs/meals.png';
+import carApi from '../assets/imgs/car-booking-api.png';
+import carClient from '../assets/imgs/car-booking_client.png';
 import '../assets/styles/Project.css';
 
 const RecentWork = () => {
@@ -26,22 +29,29 @@ const RecentWork = () => {
       id: 3,
       name: 'Bookstore',
       description: 'lorem ipsum',
-      image: `${weatherApp2}`,
+      image: `${bookstore}`,
       stack: ['Rails', 'React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
     },
     {
       id: 4,
       name: 'Meal Recipes',
       description: 'Get the recipe and instructions for the meal you want to cook',
-      image: `${weatherApp2}`,
+      image: `${meals}`,
       stack: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
     },
     {
       id: 5,
       name: 'Car Booking API',
       description: 'REST API with JWT authentication and two types of users. Admin users can perform CRUD operations on the following data:  car, category, manufacturer, while signed-up users can only book a car.',
-      image: `${weatherApp2}`,
-      stack: ['Rails', 'React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
+      image: `${carApi}`,
+      stack: ['Rails'],
+    },
+    {
+      id: 6,
+      name: 'Car Booking',
+      description: 'The client-side for the Car Booking REST API. Allows users to signup, book a car, and access the history of bookings.',
+      image: `${carClient}`,
+      stack: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
     },
   ];
 
