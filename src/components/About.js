@@ -30,12 +30,25 @@ const About = () => {
     <div id="about" className="row">
       <div id="aboutText" className="col-md-6">
         <h2>About me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Aperiam repellat aspernatur illo natus. Alias fugit corrupti
-          nam delectus nihil soluta architecto deserunt numquam,
-          quos at reiciendis, natus, nesciunt repellendus quod.
-        </p>
+        <article>
+          <p>
+            I am a simple, honest, hard-working, reliable, dedicated, and knowledgeable developer.
+          </p>
+          <p>
+            I&apos;m a graduate of INHA University
+            with a BS degree in Computer Science and Software Engineering.
+            In the senior year of University, I enrolled in a remote school called Microverse
+            to learn full-stack web development, and have experience in remote work
+            collaborating with developers worldwide.
+          </p>
+          <p>
+            I like listening to music, watch movies, play games on PS,
+            play basketball, and sometimes play guitar.
+          </p>
+          <p>
+            Open to work in a company or startup as a full-stack developer.
+          </p>
+        </article>
         <button id="resumeLink" type="button" onClick={() => console.log('get resume')}>
           <span>Get My Resume</span>
           <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
