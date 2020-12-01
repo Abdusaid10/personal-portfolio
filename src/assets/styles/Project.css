@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-items: baseline;
-  align-items: center;
+  align-items: start;
   margin: 10px 0;
   padding: 0;
 }
@@ -41,6 +41,7 @@
 .project-info h2 {
   font-weight: bold;
   font-size: 32px;
+  padding: 15px 0;
 }
 
 #stackWrapper {
@@ -62,6 +63,15 @@
   vertical-align: middle;
   font-weight: bold;
   font-size: 18px;
+  margin: 0 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px 0;
 }
 
 .see-project:hover {

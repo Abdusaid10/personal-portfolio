@@ -28,6 +28,10 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 #root {
   width: 100%;
 }
@@ -51,4 +55,16 @@ code {
   align-items: center;
   font-weight: bold;
   font-size: 18px;
+}
+
+.app .footer {
+  justify-content: space-between;
+  align-self: center;
+  margin: 10px 0;
+}
+
+.app .footer .resume-link,
+.app .footer #contacts  {
+  padding: 10px 20px;
+  margin: 0 20px;
 }

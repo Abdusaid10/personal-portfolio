@@ -17,6 +17,8 @@ const RecentWork = () => {
       description: 'Weather app shows the weather information of the user\'s city when the page is loaded, the user can also search for and view the forecast in cities worldwide.',
       image: `${weatherApp1}`,
       stack: ['HTML', 'CSS', 'JavaScript'],
+      srcLink: 'https://github.com/Abdusaid10/weatherApp',
+      liveLink: 'https://github.com/Abdusaid10/weatherApp',
     },
     {
       id: 2,
@@ -24,6 +26,8 @@ const RecentWork = () => {
       description: 'Social network for remote developers and learners',
       image: `${devocean}`,
       stack: ['Rails', 'JavaScript', 'HTML', 'CSS'],
+      srcLink: 'https://github.com/imhta/devocean',
+      liveLink: 'https://dev-ocean.herokuapp.com/',
     },
     {
       id: 3,
@@ -31,6 +35,8 @@ const RecentWork = () => {
       description: 'lorem ipsum',
       image: `${bookstore}`,
       stack: ['Rails', 'React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
+      srcLink: 'https://github.com/Abdusaid10/react-bookstore',
+      liveLink: 'https://react-bookstore-270720.herokuapp.com/',
     },
     {
       id: 4,
@@ -38,6 +44,8 @@ const RecentWork = () => {
       description: 'Get the recipe and instructions for the meal you want to cook',
       image: `${meals}`,
       stack: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
+      srcLink: 'https://github.com/Abdusaid10/react-capstone',
+      liveLink: 'https://react-meal-recipes.herokuapp.com/',
     },
     {
       id: 5,
@@ -45,6 +53,8 @@ const RecentWork = () => {
       description: 'REST API with JWT authentication and two types of users. Admin users can perform CRUD operations on the following data:  car, category, manufacturer, while signed-up users can only book a car.',
       image: `${carApi}`,
       stack: ['Rails'],
+      srcLink: 'https://github.com/Abdusaid10/car-booking-api',
+      liveLink: 'https://car-booking-api-app.herokuapp.com/',
     },
     {
       id: 6,
@@ -52,6 +62,8 @@ const RecentWork = () => {
       description: 'The client-side for the Car Booking REST API. Allows users to signup, book a car, and access the history of bookings.',
       image: `${carClient}`,
       stack: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
+      srcLink: 'https://github.com/Abdusaid10/car-booking-client',
+      liveLink: 'https://car-rental-client.netlify.app/',
     },
   ];
 

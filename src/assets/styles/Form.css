@@ -18,6 +18,9 @@ input:focus, textarea:focus {
   width: 100%;
 }
 
+.form-container {
+  padding: 10px 0;
+}
 
 .get-started,
 .form-container,

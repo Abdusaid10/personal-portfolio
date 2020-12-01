@@ -98,7 +98,7 @@
   color: #36B37E;
 }
 
-#resumeLink {
+.resume-link {
   background-color: #212123;;
   color: white;
   font-weight: bold;
@@ -106,13 +106,16 @@
   align-items: center;
   padding: 10px 5px;
   margin-top: 20px;
+  text-decoration: none;
 }
 
-#resumeLink:hover {
+.resume-link:hover {
+  text-decoration: none;
+  color: white;
   box-shadow: 0 2px 24px rgba(139, 138, 138, 0.25);
 }
 
-#resumeLink span {
+.resume-link span {
   margin-right: 10px;
 }
 

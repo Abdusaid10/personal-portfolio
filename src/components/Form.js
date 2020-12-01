@@ -56,7 +56,7 @@ const Form = () => {
       >
         {message}
       </textarea>
-      <button type="submit" className="btn btn-danger mt-3">Start Collaboration</button>
+      <button type="submit" className="btn btn-danger pb-2 mt-3">Start Collaboration</button>
     </form>
   );
 };
