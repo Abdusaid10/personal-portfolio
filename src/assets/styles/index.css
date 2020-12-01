@@ -1,7 +1,7 @@
-/* body {
-  margin: 0;
+body {
   padding: 0;
-  background-color: #1f1f22;
+  margin: 0;
+  background-color: #E5E5E5;
   color: #fff;
   font-family:
     -apple-system,
@@ -17,22 +17,15 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
+}
 
-/* code {
+code {
   font-family:
     source-code-pro,
     Menlo, Monaco,
     Consolas,
     'Courier New',
     monospace;
-} */
-body {
-  padding: 0;
-  margin: 0;
-  /* background-color: #1f1f22; */
-  background-color: #E5E5E5;
-  color: #fff;
 }
 
 #root {

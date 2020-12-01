@@ -19,10 +19,4 @@ const Contact = () => (
   </div>
 );
 
-// const contacts = {
-//   GitHub: 'https://github.com/Abdusaid10',
-//   LinkedIn: 'https://www.linkedin.com/in/abdusaid/',
-//   AngelList: 'https://angel.co/u/abdusaid-abdurasulov',
-// };
-
 export default Contact;
