@@ -32,7 +32,7 @@ const RecentWork = () => {
     {
       id: 3,
       name: 'Bookstore',
-      description: 'lorem ipsum',
+      description: 'Keep track of your books that you have read, or currently reading, or going to read',
       image: `${bookstore}`,
       stack: ['Rails', 'React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
       srcLink: 'https://github.com/Abdusaid10/react-bookstore',

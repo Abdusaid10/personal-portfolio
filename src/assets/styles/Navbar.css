@@ -13,7 +13,7 @@
   padding: 15px 0;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 780px) { 
   .nav-container {
     border: none;
   }
