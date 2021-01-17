@@ -49,7 +49,7 @@ const NavMenu = ({ open }) => (
       <a href="#about">About</a>
     </li>
     <li className="menu-item">
-      <a href="#contacts">Contact</a>
+      <a href="#footer">Contact</a>
     </li>
   </NavMenuStyle>
 );

@@ -7,7 +7,7 @@ import devocean from '../assets/imgs/devocean_feed.png';
 import meals from '../assets/imgs/meals.png';
 import carApi from '../assets/imgs/car-booking-api.png';
 import carClient from '../assets/imgs/car-booking_client.png';
-import '../assets/styles/Project.css';
+import '../assets/styles/project.css';
 
 const RecentWork = () => {
   const projects = [
@@ -34,7 +34,7 @@ const RecentWork = () => {
       name: 'Bookstore',
       description: 'Keep track of your books that you have read, or currently reading, or going to read',
       image: `${bookstore}`,
-      stack: ['Rails', 'React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
+      stack: ['Ruby', 'Rails', 'React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
       srcLink: 'https://github.com/Abdusaid10/react-bookstore',
       liveLink: 'https://react-bookstore-270720.herokuapp.com/',
     },
@@ -52,7 +52,7 @@ const RecentWork = () => {
       name: 'Car Booking API',
       description: 'REST API with JWT authentication and two types of users. Admin users can perform CRUD operations on the following data:  car, category, manufacturer, while signed-up users can only book a car.',
       image: `${carApi}`,
-      stack: ['Rails'],
+      stack: ['Ruby', 'Rails'],
       srcLink: 'https://github.com/Abdusaid10/car-booking-api',
       liveLink: 'https://car-booking-api-app.herokuapp.com/',
     },
