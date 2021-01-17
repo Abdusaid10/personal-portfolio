@@ -58,9 +58,12 @@ a {
 }
 
 .app .footer {
+  flex-direction: column;
   justify-content: space-between;
   align-self: center;
   margin: 10px 0;
+  padding: 20px;
+  background-color: black;
 }
 
 .app .footer .resume-link,
@@ -70,7 +73,7 @@ a {
 }
 
 
-@media (max-width: 1248px) {
+@media (min-width: 780px) {
   .app .footer .resume-link, .app .footer #contacts {
     padding: 5px 5px;
     margin: 0 5px;

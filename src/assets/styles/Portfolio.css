@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+  max-width: 100%;
+  flex: 0 0 50%;
 }
 
 .center-items {
@@ -13,10 +15,12 @@
   align-items: baseline;
   margin: 10px auto;
   padding: 20px;
+  max-width: 100%;
 }
 
 .center-items p {
   margin: auto;
+  font-size: 16px;
 }
 
 #info {
@@ -28,6 +32,30 @@
 }
 
 #portfolio h2 {
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 10px;
+}
+
+#borderLine {
+  position: static;
+  width: 70px;
+  height: 0px;
+
+  border: 1px solid gray;
+  z-index: 0;
+}
+
+#portfolio .footer {
+  flex-direction: column;
+  width: 100%;
+}
+
+#borderLine {
+  margin-top: 15px;
+}
+
+@media (max-width: 748px) {
+  #portfolio .footer {
+    flex-direction: column;
+  }
 }

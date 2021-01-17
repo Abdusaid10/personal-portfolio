@@ -18,7 +18,7 @@
 }
 
 #about, #aboutText {
-  align-items: start;
+  align-items: flex-start;
   justify-items: center;
   position: relative; 
 }
@@ -33,7 +33,7 @@
   font-weight: bold;
   text-align: left;
   font-size: 32px;
-  align-self: start;
+  align-self: flex-start;
 }
 
 #aboutText article {
@@ -67,7 +67,7 @@
 #skills {
   flex-flow: row wrap;
   flex-grow: 0;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding-right: 10px;
   padding-top: 5px;
