@@ -54,7 +54,7 @@ const RecentWork = () => {
       description: 'This is a REST API with JWT authentication and two types of users. Admin users can perform CRUD operations on the following data:  car, category, and manufacturer, while signed-up users can only book a car.',
       image: `${carApi}`,
       stack: ['Ruby', 'Rails'],
-      srcLink: 'https://github.com/Abdusaid10/car-booking-api',
+      srcLink: 'https://github.com/Abdusaid10/car-rental-api',
       liveLink: 'https://car-booking-api-app.herokuapp.com/',
     },
     {
@@ -63,7 +63,7 @@ const RecentWork = () => {
       description: 'The client-side for the Car Booking REST API. Allows users to signup, book a car, and access the history of bookings.',
       image: `${carClient}`,
       stack: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
-      srcLink: 'https://github.com/Abdusaid10/car-booking-client',
+      srcLink: 'https://github.com/Abdusaid10/car-rental-client',
       liveLink: 'https://car-rental-client.netlify.app/',
     },
   ];

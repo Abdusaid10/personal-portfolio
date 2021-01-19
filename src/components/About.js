@@ -43,8 +43,12 @@ const About = () => {
             collaborating with developers worldwide.
           </p>
           <p>
-            I like listening to music, watch movies, play games on PS,
-            play basketball, and sometimes play guitar.
+            Over the last year, I&apos;ve built more than 40 projects as a full-stack developer.
+            I&apos;m building applications with Rails, JavaScript, React, and Redux.
+          </p>
+          <p>
+            Now I&apos;m looking for a job where I can utilize and improve my skills and knowledge
+            and learn new ones.
           </p>
           <p>
             Open to work in a company or startup as a full-stack developer.
