@@ -14,7 +14,7 @@ const RecentWork = () => {
     {
       id: 1,
       name: 'Weather App',
-      description: 'Weather app shows the weather information of the user\'s city when the page is loaded, the user can also search for and view the forecast in cities worldwide.',
+      description: 'This Weather app shows the weather information in the user\'s city when the page is loaded. The user can also search for and view the forecast in cities worldwide.',
       image: `${weatherApp1}`,
       stack: ['HTML', 'CSS', 'JavaScript'],
       srcLink: 'https://github.com/Abdusaid10/weatherApp',
@@ -23,7 +23,8 @@ const RecentWork = () => {
     {
       id: 2,
       name: 'Devocean',
-      description: 'Social network for remote developers and learners',
+      description: `Social network for remote developers and learners.
+        Where they can share their experience and learn from others developers by making posts and connecting with developers worldwide.`,
       image: `${devocean}`,
       stack: ['Rails', 'JavaScript', 'HTML', 'CSS'],
       srcLink: 'https://github.com/imhta/devocean',
@@ -32,7 +33,7 @@ const RecentWork = () => {
     {
       id: 3,
       name: 'Bookstore',
-      description: 'Keep track of your books that you have read, or currently reading, or going to read',
+      description: 'Keep track of the books that you have read, or are currently reading, or are going to read.',
       image: `${bookstore}`,
       stack: ['Ruby', 'Rails', 'React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
       srcLink: 'https://github.com/Abdusaid10/react-bookstore',
@@ -41,7 +42,7 @@ const RecentWork = () => {
     {
       id: 4,
       name: 'Meal Recipes',
-      description: 'Get the recipe and instructions for the meal you want to cook',
+      description: 'This is a meal recipes app where you can select an area you want to look up the list of meals they cook. Then you can choose the meal you like and get the instructions on how to cook it and the list of ingredients.',
       image: `${meals}`,
       stack: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
       srcLink: 'https://github.com/Abdusaid10/react-capstone',
@@ -50,7 +51,7 @@ const RecentWork = () => {
     {
       id: 5,
       name: 'Car Booking API',
-      description: 'REST API with JWT authentication and two types of users. Admin users can perform CRUD operations on the following data:  car, category, manufacturer, while signed-up users can only book a car.',
+      description: 'This is a REST API with JWT authentication and two types of users. Admin users can perform CRUD operations on the following data:  car, category, and manufacturer, while signed-up users can only book a car.',
       image: `${carApi}`,
       stack: ['Ruby', 'Rails'],
       srcLink: 'https://github.com/Abdusaid10/car-booking-api',
@@ -69,6 +70,7 @@ const RecentWork = () => {
 
   return (
     <div id="projectsContainer">
+      <h2 id="recentWork">Recent Work</h2>
       <Router>
         {
           projects.map(project => (
