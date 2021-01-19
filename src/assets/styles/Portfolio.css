@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  max-width: 100%;
+  width: 100%;
   flex: 0 0 50%;
 }
 
@@ -13,14 +13,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: baseline;
-  margin: 10px;
+  margin: 40px 10px;
   padding: 20px;
   max-width: 100%;
 }
 
+.center-items p, .center-items span, .circle {
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .center-items p {
   margin: auto;
-  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.circle {
+  display: flex;
+  background-color: #DB4747;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18x;
 }
 
 #info {
@@ -32,8 +51,14 @@
 }
 
 #portfolio h2 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
   font-size: 40px;
+  line-height: 100%;
+  font-weight: bold;
   padding-bottom: 10px;
+  color: #FFFFFF;
 }
 
 #borderLine {
@@ -48,14 +73,85 @@
 #portfolio .footer {
   flex-direction: column;
   width: 100%;
+  background-color: inherit;
 }
 
 #borderLine {
   margin-top: 15px;
 }
 
-@media (max-width: 748px) {
+@media (min-width: 769px) {
+  #portfolio {
+    width: 80%;
+  }
+
+  .center-items p, .center-items span, .circle {
+    font-size: 18px;
+  }
+
+  .circle {
+    font-size: 24px;
+  }
+
+  #portfolio h2 {
+    font-size: 50px;
+  }
+
   #portfolio .footer {
-    flex-direction: column;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  #portfolio {
+    max-width: 70%;
+  }
+  
+  .center-items p, .center-items span, .circle {
+    font-size: 20px;
+  }
+
+  .circle {
+    font-size: 24px;
+  }
+
+  #portfolio h2 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #portfolio {
+    max-width: 60%;
+  }
+
+  .center-items p, .center-items span, .circle {
+    font-size: 22px;
+  }
+
+  .circle {
+    font-size: 28px;
+  }
+
+  #portfolio h2 {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 1380px) {
+  #portfolio {
+    max-width: 50%;
+  }
+
+  .center-items p, .center-items span, .circle {
+    font-size: 24px;
+  }
+
+  .circle {
+    font-size: 30px;
+  }
+
+  #portfolio h2 {
+    font-size: 80px;
   }
 }

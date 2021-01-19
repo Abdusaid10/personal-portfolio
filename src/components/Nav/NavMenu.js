@@ -40,16 +40,16 @@ const NavMenuStyle = styled.ul`
 const NavMenu = ({ open }) => (
   <NavMenuStyle open={open}>
     <li className="menu-item">
-      <a href="#portfolio">Portfolio</a>
+      <a href="#portfolio">Hello</a>
     </li>
     <li className="menu-item">
-      <a href="#projectsContainer">Recent Work</a>
+      <a href="#projectsContainer">Portfolio</a>
     </li>
     <li className="menu-item">
       <a href="#about">About</a>
     </li>
     <li className="menu-item">
-      <a href="#footer">Contact</a>
+      <a href="#getStarted">Contact</a>
     </li>
   </NavMenuStyle>
 );

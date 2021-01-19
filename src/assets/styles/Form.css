@@ -13,7 +13,7 @@ input:focus, textarea:focus {
 }
 
 .get-started {
-  margin: 20px 0;
+  margin: 30px 0;
   background-color: #212123; /* #212123 */
   width: 100%;
 }
@@ -37,8 +37,16 @@ input:focus, textarea:focus {
 }
 
 .get-started-text h2 {
+  font-family: Playfair Display;
+  font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 40px;
+}
+
+.get-started-text p {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
 }
 
 .form-container {
@@ -49,6 +57,19 @@ input:focus, textarea:focus {
 .width-100 {
   width: 100% !important;
   padding: 10px 5px;
+}
+
+#startBtn {
+  background: #DB4747;
+  margin: 10px;
+  padding: 5px;
+  color: #ffffff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
 }
 
 @media (max-width: 780px) {

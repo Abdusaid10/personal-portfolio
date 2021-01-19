@@ -11,7 +11,7 @@
 #about {
   flex-direction: row-reverse;
   background-color: #212123; /* #212123*/
-  margin: 20px 0;
+  margin: 30px 0;
   padding: 15px;
   z-index: 0;
   width: 100%;
@@ -30,10 +30,13 @@
 }
 
 #aboutText h2 {
-  font-weight: bold;
   text-align: left;
-  font-size: 32px;
   align-self: flex-start;
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 #aboutText article {
@@ -56,6 +59,14 @@
   background-color: #212123;
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /* line-height: 21px; */
+  letter-spacing: -0.0525em;
+
+  color: #7D7C84;
 }
 
 .skills-wrapper:hover {
@@ -95,23 +106,26 @@
   margin: 4px;
   border: 2px solid gray;
   border-radius: 8px 8px;
-  color: #36B37E;
+  /* color: #36B37E; */
 }
 
 .resume-link {
   background-color: #212123;;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
+  color: #DB4747;
   align-items: center;
   padding: 10px 5px;
   margin-top: 20px;
   text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .resume-link:hover {
   text-decoration: none;
-  color: white;
+  color: #DB4747;
   box-shadow: 0 2px 24px rgba(139, 138, 138, 0.25);
 }
 
@@ -126,7 +140,7 @@
   #about, .skills-container {
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100%;
   }
 

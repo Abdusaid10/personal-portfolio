@@ -2,12 +2,12 @@ import React from 'react';
 import Burger from '../components/Nav/Burger';
 
 const Navbar = () => (
-  <div className="nav-container">
+  <nav className="nav-container">
     <div className="name">
       A.A
     </div>
     <Burger />
-  </div>
+  </nav>
 );
 
 export default Navbar;

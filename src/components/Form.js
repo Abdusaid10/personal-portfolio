@@ -22,7 +22,7 @@ const Form = () => {
   };
 
   return (
-    <form className="form-container" onSubmint={handleSubmit}>
+    <form className="form-container col-md-6" onSubmint={handleSubmit}>
       <label htmlFor="name" className="width-100">
         <input
           type="text"
@@ -56,7 +56,7 @@ const Form = () => {
       >
         {message}
       </textarea>
-      <button type="submit" className="btn btn-danger pb-2 mt-3">Start Collaboration</button>
+      <button type="submit" id="startBtn">Start Collaboration</button>
     </form>
   );
 };

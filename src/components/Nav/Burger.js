@@ -11,6 +11,13 @@ const StyledBurger = styled.div`
   height: 1.5rem;
   z-index: 20;
 
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    cursor: pointer;
+  }
+
   div {
     width: 1.8rem;
     height: .18rem;
@@ -31,13 +38,6 @@ const StyledBurger = styled.div`
     &:nth-child(3) {
       transform: ${({ open }) => (open ? 'rotate(-45deg)' : 'rotate(0)')}
     }
-  }
-
-  @media (max-width: 768px) {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-    cursor: pointer;
   }
 `;
 
